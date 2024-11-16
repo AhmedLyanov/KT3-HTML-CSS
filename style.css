@@ -1,0 +1,1075 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+
+    --ColorText:#1D1D1D;
+}
+
+/*////////////////////////////////////// HEADER STYLES */
+header{
+    width: 100%;
+    padding-inline: 30px;
+}
+
+.Header-Container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navigation-Box nav{
+    display: flex;
+    gap: 50px;
+    width: 385px ;
+    height: 24px;
+}
+
+.Navigation-Box nav .Span-Buttons a{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--ColorText);
+}
+
+.Contacts-Button-Container button{
+    width: 185px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;   
+    color: #377DFF;  
+    padding: 13px 50px 12px 50px;      
+    gap: 10px;
+    transition: all 0.5s;
+}
+
+.Contacts-Button-Container button:hover{
+    border: 1px solid #ffffff;   
+    color: #ffffff;  
+    background-color:#377DFF ;
+ 
+}
+.Navigation-Box {
+    position: relative; 
+}
+
+
+
+.hamburger {
+    display: none; 
+    cursor: pointer;
+    font-size: 24px; 
+}
+
+
+.overlay {
+    display: none; 
+    position: fixed; 
+    width: 100%; 
+    height: 100%; 
+    top: 0; 
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8); 
+    z-index: 1000; 
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    color: white; 
+}
+
+.overlay .Span-Buttons {
+    display: block; 
+    margin: 20px 0; 
+}
+
+.overlay .Span-Buttons a {
+    color: white; 
+    font-size: 24px; 
+    text-decoration: none; 
+}
+
+.closebtn {
+    font-size: 36px; 
+    color: white; 
+    cursor: pointer; 
+}
+
+
+
+/*////////////////////////////////////// HEADER STYLES */
+/*////////////////////////////////////// MAIN STYLES */
+main{
+    height: 1001px;
+    padding-top: 50px;
+}
+#Section-Element-Type-1{
+    width: 100%;
+    height: 374px;
+    display: grid;
+    justify-items: center;
+}
+.Table-Info-Box{
+    text-align: center;
+    width: 800px;
+    display: grid;
+    gap: 25px;
+    justify-items: center;
+}
+.Table-Info-Box article h1{
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 87.3px;
+    font-size: 64px;
+    color: #1D1D1D;
+}
+
+.Table-Info-Box article{
+   display: grid;
+   justify-items: center;
+}
+
+
+.Table-Info-Box article p{
+    font-family: "Nunito", sans-serif;
+    color: #464646;
+    font-size: 20px;
+    font-weight: 400;
+    width: 421px;
+}
+
+.Button-Box-Table-Info button{
+    width: 201px;
+    height: 48px;
+    border-radius: 24px;
+    padding: 12px 50px 12px 50px;
+    background-color: #377DFF;
+    box-shadow: 0px 4px 8px #377DFF80 ;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.5s;
+    color: #FFFFFF;
+}
+
+
+.Button-Box-Table-Info button:hover{
+    color: #377DFF;
+    background: #ffffff;
+}
+
+#Section-Element-Type-2{
+    width: 100%;
+    height: 615px;
+    display: grid;
+    justify-items: center;
+}
+.Table-Image-Element-Container{
+    position: relative;
+}
+.Image-Block-Section-2{
+    background-image: url("Table-Image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 509px;
+    width: 750px;
+}
+.Element-Window-Image-Table-1{
+    width: 150px;
+    height: 80px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 24px 0px ;
+    position: absolute;
+    top: 5%;
+    left: -8%;
+    border-radius: 16px;
+    display: grid;
+    align-items: center;
+}
+
+.Element-Window-Image-Table-2{
+    width: 166px;
+    height: 166px;
+    background: #FFFFFF;
+    position: absolute;
+    top: 65%;
+    left: 83%;
+    border-radius: 16px;
+    font-family: "Nunito", sans-serif;
+    color: #1D1D1D;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 20px;
+    display: grid;
+}
+
+.Avatar-User-Box{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 5px;
+}
+.Element-Window-Image-Table-1 p{
+    font-weight: 700;
+    color: #1D1D1D;
+    line-height: 15px;
+    font-size: 12px;
+    font-family: "Quicksand", sans-serif;
+}
+
+.Element-Window-Image-Table-1 span{
+    font-weight: 600;
+    color: #1D1D1D;
+    line-height: 32.74px;
+    font-size: 24px;
+    font-family: "Nunito", sans-serif;
+}
+
+
+
+
+
+
+#Section-Element-Type-3{
+    padding-top: 20px;
+}
+.Container-About-Us-Content{
+    display: grid;
+    justify-items: center;
+    width: 100%;
+}
+.Container-About-Us-Content article {
+   text-align: center;
+}
+.Container-About-Us-Content article a{
+    font-weight: 600;
+    color: #1D1D1D;
+    line-height: 24px;
+    font-size: 24px;
+    font-family: "Quicksand", sans-serif;
+    color: #377DFF;
+    text-decoration: none;
+}
+.Container-About-Us-Content article h1{
+    font-weight: 700;
+    color: #1D1D1D;
+    line-height: 75.02px;
+    font-size: 55px;
+    font-family: "Nunito", sans-serif;
+}
+.Box-Content-About-Us{
+    display: flex;
+}
+.Description-Content-About-Us{
+    padding: 10px 50px 10px 50px;
+}
+
+.Text-Description-About-Us{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+    text-decoration: none;
+    width: 610px;
+    display: grid;
+    gap: 40px;
+}
+
+.Buttons-Contents-About-Us{
+    display: flex;
+    gap: 20px;
+}
+
+.Button-Element-ID-1{
+    width: 171px;
+    height: 48px;
+    border-radius: 24px;
+    padding: 12px 50px 12px 50px;
+    color: #FFFFFF;
+    background: #377DFF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+.Button-Element-ID-1:hover{
+    color: #377DFF;
+    background:#FFFFFF ;
+    box-shadow: 0px 0px 20px 0px #377DFF;
+}
+.Button-Element-ID-2{
+    width: 210px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #377DFF;
+    transition: all 0.5s;
+}
+
+.Button-Element-ID-2:hover{
+    background: #377DFF ;
+    color: #ffffff;
+}
+/*////////////////////////////////////// MAIN STYLES */
+.Catalogs-Content-Box{
+    display: flex;
+    padding-inline: 45px;
+    justify-content: center;
+    padding-top: 65px;
+    gap: 75px;
+    align-items: center;
+}
+.Left-Content-Catalog-Box a{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #377DFF;
+    
+}
+.href-our-services a{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Left-Content-Catalog-Box article h1{
+    font-weight: 700;
+    color: #1D1D1D;
+    line-height: 75.02px;
+    font-size: 55px;
+    font-family: "Nunito", sans-serif;
+    width: 419px;
+}
+
+.Left-Content-Catalog-Box article p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    width: 520px;
+}
+
+/* card */
+.Right-Content-Catalog-Box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    width: 559px;
+}
+.Card-Catalog-Div-Element{
+    width: 262px;
+    height: 269px;
+    border-radius: 30px;
+    border: 1px solid #0000001A;
+    transition: all 0.5s;
+    padding: 50px;
+    display: grid;
+    justify-items: center;
+}
+.Card-Catalog-Div-Element:hover{
+   box-shadow: 0px 0px 5px #000000;
+}
+.Box-Description-Element article h1{
+    text-align: center;
+}
+.Circle-Element-Img-Box{
+    width: 100px;
+    height: 100px;
+    background-color: #377DFF;
+    border-radius: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Circle-Element-Img-Box-2{
+    width: 100px;
+    height: 100px;
+    background-color: #FF2D2D;
+    border-radius: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Circle-Element-Img-Box-3{
+    width: 100px;
+    height: 100px;
+    background-color: #7CE761;
+    border-radius: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Circle-Element-Img-Box-4{
+    width: 100px;
+    height: 100px;
+    background-color: #FFA800;
+    border-radius: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.Box-Description-Element article h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    line-height: 34px;
+    font-weight: 700;
+}
+
+
+#Section-Element-Type-5{
+    display: grid;
+    padding-top: 65px;
+    justify-items: center;
+    gap: 35px;
+}
+
+.Portfolio-Content article{
+    display: grid;
+    justify-items: center;
+}
+
+.Portfolio-Content article h1{
+    font-weight: 700;
+    color: #1D1D1D;
+    line-height: 75.02px;
+    font-size: 55px;
+    font-family: "Nunito", sans-serif;
+    width: 419px;
+}
+
+
+.Portfolio-Content article a{
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #377DFF;
+    text-decoration: none;
+}
+
+
+.Portfolio-Content article p{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #464646;
+    width: 674px;
+    text-align: center;
+}
+
+
+.Button-Open-Porfolio-Element button{
+    width: 226px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #377DFF;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    color:#377DFF;
+    gap: 10px;
+    background-color: transparent;
+    transition: all 0.5s;
+}
+
+.Button-Open-Porfolio-Element button:hover{
+    color:#ffffff;
+    background-color: #377DFF;
+    border: 1px solid #ffffff;
+}
+
+
+
+.Content-Container-Portfolio-Images-Scroll{
+    display: flex; justify-content: center;
+    gap: 35px;
+}
+
+
+
+
+
+#Section-Element-Type-6{
+    padding-top: 110px;
+}
+
+
+.Portfolio-Content-Type-2 article{
+    display: grid;
+    justify-items: center;
+}
+
+.Portfolio-Content-Type-2 article h1{
+    font-weight: 700;
+    color: #1D1D1D;
+    line-height: 95.02px;
+    font-size: 55px;
+    font-family: "Nunito", sans-serif;
+    width: 535px;
+}
+
+
+.Portfolio-Content-Type-2 article a{
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #377DFF;
+    text-decoration: none;
+}
+
+
+.Portfolio-Content-Type-2 article p{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    text-decoration: none;
+    color: #464646;
+    width: 674px;
+    text-align: center;
+}
+
+
+.Content-Container-Comments{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.Avatar-User-Img{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Comment-User-BLock{
+    width: 380px;
+    padding: 30px;
+    height: 335px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 24px #0000000D;
+}
+
+.Title-Name-User article h1{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #377DFF;
+}
+
+.Description-Comment-User p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #464646;
+}
+
+.priveligies{
+    font-family: "Quicksand", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #464646;
+}
+
+#Section-Element-Type-7{
+    padding-top: 65px;
+}
+.Box-Content-Collaboration{
+    display: flex;
+    justify-content: center;
+    gap: 430px;
+}
+
+.Title-Collaboraion-Box{
+    width: 491px;
+    height: 491px;
+    display: grid;
+    gap: 15px;
+    align-content: center;
+}
+
+
+.Title-Collaboraion-Box article h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75.02px;
+    letter-spacing: 0.003em;
+    text-align: left;
+    color: #1D1D1D;
+}
+.Title-Collaboraion-Box  p{
+    font-family: "Quicksand", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    
+}
+
+.Button-Container-Box button{
+    width: 193px;
+    height: 48px;
+    padding: 12px 50px 12px 50px;
+    gap: 10px;
+    border-radius: 24px;
+    transition: all 0.5s;
+    background-color: #377DFF;
+    color: #ffffff;
+    
+}
+
+.Button-Container-Box button:hover{
+    background-color: transparent;
+    color: #377DFF;
+    cursor: pointer;
+}
+.Figure-Img-Eelements{
+    position: relative;
+}
+
+.Image-Box-Element-Type-1{
+    right: 264px;
+    position: absolute;
+    top: 79px;
+    background-image: url(Photo-1-Collaboraion.jpg);
+    background-size: cover;
+    width: 325px;
+    height: 288px;
+    border-radius: 10px;
+}
+.Image-Box-Element-Type-2{
+
+    background-image: url(Photo-2-Collaboration.jpg);
+    background-size: cover;
+    width: 294px;
+    height: 288px;
+    border-radius: 10px;
+}
+
+
+footer{
+    width: 100%;
+    height: 548px;
+    padding: 55px 40px 0px 40px;
+    background: #383638;
+    display: grid;
+    align-items: center;
+}
+
+.Footer-Content-Box{
+    display: flex; 
+    justify-content: space-around;
+    height: 200px;
+}
+.LogotypeBoxFooter{
+    width: 187px;
+height: 88px;
+top: 5160px;
+left: 103px;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+display: grid;
+align-items: center;
+justify-items: center;
+background: #FFFFFF;
+}
+.Copyright-SYstem {
+    display: grid;
+    justify-items: center;
+}
+.Contacts-Elements-Container{
+    border-bottom: 1px solid #ffffff;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    gap: 34px;
+    padding-bottom: 10px;
+}
+.Copyright-SYstem article h1{
+    font-family: "Quicksand" , sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 40.5px;
+text-align: left;
+color: #FFFFFF;
+}
+
+.Contact-Element{
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 100%;
+}
+
+.href-elements-part-1{
+    display: grid;
+}
+
+.href-elements-part-2{
+    display: grid;
+}
+
+.href-elements-part-3{
+    display: grid;
+}
+
+.href-elements-part-4{
+    display: grid;
+}
+
+.href-text-footer{
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+font-size: 22px;
+font-weight: 700;
+line-height: 27.5px;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+@media (max-width: 1280px){
+    .Img-Element-About-Us{
+        display: flex;
+        justify-content: center;
+    }
+    .Box-Content-About-Us{
+        display: grid;
+    }
+    .Content-Container-Portfolio-Images-Scroll {
+        gap: 5px;
+    }
+
+}
+
+@media (max-width: 1130px){
+    .Content-Container-Portfolio-Images-Scroll {
+        display: grid;
+        justify-items: center;
+    }
+    .Image-Box-Element-Type-2{
+        display: none;
+    }
+    .Image-Box-Element-Type-1{
+        right: 50px;
+    }
+    .href-text-footer{
+        font-size: 15px;
+    }
+    .Catalogs-Content-Box{
+        display: grid;
+    }
+}
+
+
+@media (max-width: 870px){
+ .Catalogs-Content-Box{
+    display: grid;
+    justify-items: center;
+ }
+ .Element-Window-Image-Table-1{
+    display: none;
+ }
+ .Element-Window-Image-Table-2{
+    display: none;
+ }
+ .Image-Block-Section-2{
+    height: 416px;
+    width: 627px;
+ }
+ .Logotype-Box{
+    display: none;
+ }
+ .Table-Info-Box{
+    width: 780px;
+ }
+}
+
+
+@media (max-width: 780px){
+    .Table-Info-Box article h1 {
+        font-family: "Nunito", sans-serif;
+        font-weight: 800;
+        line-height: 17.3px;
+        font-size: 24px;
+        color: #1D1D1D;
+    }
+    .Box-Content-Collaboration {
+        display: grid;
+        justify-content: center;
+        gap: 0px;
+    }
+    .Image-Box-Element-Type-1{
+        position: static;
+    }
+    .Title-Collaboraion-Box{
+        justify-items: center;
+    }
+    .Title-Collaboraion-Box article h1 {
+        font-family: "Nunito", sans-serif;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 75.02px;
+        letter-spacing: 0.003em;
+        text-align: center;
+        color: #1D1D1D;
+    }
+    .Table-Info-Box{
+        width: 500px;
+     }
+
+     .Text-Description-About-Us{
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 400;
+        text-decoration: none;
+        width: 310px;
+        display: grid;
+        gap: 40px;
+    }
+    .Title-Collaboraion-Box {
+        width: 420px;
+        height: 491px;
+        display: grid;
+        gap: 15px;
+        align-content: center;
+    }
+    .Navigation-Box nav {
+        display: flex;
+        gap: 35px;
+        width: 385px;
+        height: 24px;
+    }
+
+}
+
+
+
+
+@media (max-width: 750px){
+    .Image-Block-Section-2 {
+        height: 320px;
+        width: 480px;
+    }
+    .Img-Element-About-Us picture img{
+        width: 420px;
+    }
+    .Description-Content-About-Us {
+      padding: 0px;
+    }
+    .Content-Container-Comments {
+        display: grid;
+        justify-content: center;
+        gap: 30px;
+    }
+    .LogotypeBoxFooter{
+        display: none;
+    }
+    .Table-Info-Box article p{
+        font-family: "Nunito", sans-serif;
+        color: #464646;
+        font-size: 20px;
+        font-weight: 400;
+        width: 300px;
+    }
+    
+}
+
+
+
+
+
+@media (max-width: 680px){
+    .Portfolio-Content article p {
+        font-family: "Quicksand", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 34px;
+        text-decoration: none;
+        color: #464646;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width: 610px){
+    .Img-Element-About-Us picture img {
+        width: 350px;
+    }
+    .Text-Description-About-Us {
+        font-family: "Quicksand", sans-serif;
+        font-size: 20px;
+        line-height: 32px;
+        font-weight: 400;
+        text-decoration: none;
+        width: 100%;
+        display: grid;
+        gap: 40px;
+    }
+    .hamburger {
+        display: block; 
+    }
+
+    .main-nav {
+        display: none; 
+    }
+    .Navigation-Box nav {
+        display: none;
+    }
+}
+
+@media (max-width: 570px){
+    .Right-Content-Catalog-Box {
+        display: grid;
+        flex-wrap: wrap;
+        gap: 35px;
+        width: 559px;
+        justify-items: center;
+    }
+    .Left-Content-Catalog-Box article h1 {
+        font-weight: 700;
+        color: #1D1D1D;
+        line-height: 75.02px;
+        font-size: 55px;
+        font-family: "Nunito", sans-serif;
+        width: 100%;
+    }
+
+    .href-text-footer {
+        font-size: 12px;
+        line-height: 17px;
+    }
+    .Footer-Content-Box {
+        display: table-footer-group;
+        height: 200px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 556px){
+    .Right-Content-Catalog-Box{
+        width: 300px;
+    }     
+    .Portfolio-Content-Type-2 article h1 {
+        font-weight: 700;
+        color: #1D1D1D;
+        line-height: 95.02px;
+        font-size: 50px;
+        font-family: "Nunito", sans-serif;
+        width: 420px;
+    }
+    footer{
+        padding: 0px;
+    }
+    .Contacts-Elements-Container {
+        border-bottom: 1px solid #ffffff;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+    .Table-Info-Box {
+        width: 410px;
+    }
+   
+    .Image-Block-Section-2 {
+        height: 235px;
+        width: 350px;
+    }
+    .Left-Content-Catalog-Box article p {
+        font-family: "Quicksand", sans-serif;
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 400;
+        width: 340px;
+    }
+}
+
+
+
+@media (max-width: 490px){
+    .Right-Content-Catalog-Box {
+        display: grid;
+        flex-wrap: wrap;
+        gap: 35px;
+        width: 100%;
+        justify-items: center;
+    }
+    .Portfolio-Content-Type-2 article h1 {
+        font-weight: 700;
+        color: #1D1D1D;
+        line-height: 95.02px;
+        font-size: 55px;
+        font-family: "Nunito", sans-serif;
+        width: 100%;
+    }
+    .Title-Collaboraion-Box {
+        width: 100%;
+        height: 491px;
+        display: grid;
+        gap: 15px;
+        align-content: center;
+    }
+    .Contacts-Elements-Container {
+        border-bottom: 1px solid #ffffff;
+        width: 280px;
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        padding-bottom: 10px;
+    }
+    .Image-Block-Section-2 {
+        height: 270px;
+        width: 410px;
+    }
+ 
+}
